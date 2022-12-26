@@ -1,0 +1,32 @@
+.container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;text-align: center;
+    transition: all ease-in-out 0.2s;
+    
+}
+
+h2{
+    margin:0;
+    padding:0;
+}
+.btn-affect{
+ 
+    border: 2px solid rgba(255, 0, 0,1);
+    box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.582););
+    
+}
+:hover
